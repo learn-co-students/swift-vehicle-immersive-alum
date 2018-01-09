@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0042BBA31FF9EBA2009F5E38 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042BBA21FF9EBA2009F5E38 /* Vehicle.swift */; };
+		0042BBA51FF9FE81009F5E38 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042BBA41FF9FE81009F5E38 /* Car.swift */; };
+		006159061FFE14C10029605E /* Jet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006159051FFE14C10029605E /* Jet.swift */; };
+		007909B91FFD20E6002C89AF /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007909B81FFD20E6002C89AF /* Plane.swift */; };
+		007909BB1FFD20FA002C89AF /* RaceCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007909BA1FFD20FA002C89AF /* RaceCar.swift */; };
 		1B5491761D33D08600698752 /* PlaneSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5491751D33D08600698752 /* PlaneSpec.swift */; };
 		1B5491781D33D0A300698752 /* JetSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5491771D33D0A300698752 /* JetSpec.swift */; };
 		1B5E8FE41D3039FD00054FD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E8FE31D3039FD00054FD9 /* AppDelegate.swift */; };
@@ -33,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0042BBA21FF9EBA2009F5E38 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		0042BBA41FF9FE81009F5E38 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		006159051FFE14C10029605E /* Jet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jet.swift; sourceTree = "<group>"; };
+		007909B81FFD20E6002C89AF /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		007909BA1FFD20FA002C89AF /* RaceCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceCar.swift; sourceTree = "<group>"; };
 		1B5491751D33D08600698752 /* PlaneSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneSpec.swift; sourceTree = "<group>"; };
 		1B5491771D33D0A300698752 /* JetSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JetSpec.swift; sourceTree = "<group>"; };
 		1B5E8FE01D3039FD00054FD9 /* swift-vehicle-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-vehicle-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +137,11 @@
 				1B5E8FEC1D3039FD00054FD9 /* LaunchScreen.storyboard */,
 				1B5E8FEF1D3039FD00054FD9 /* Info.plist */,
 				1B5E8FE51D3039FD00054FD9 /* ViewController.swift */,
+				0042BBA21FF9EBA2009F5E38 /* Vehicle.swift */,
+				0042BBA41FF9FE81009F5E38 /* Car.swift */,
+				007909B81FFD20E6002C89AF /* Plane.swift */,
+				007909BA1FFD20FA002C89AF /* RaceCar.swift */,
+				006159051FFE14C10029605E /* Jet.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -353,8 +368,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0042BBA31FF9EBA2009F5E38 /* Vehicle.swift in Sources */,
+				007909BB1FFD20FA002C89AF /* RaceCar.swift in Sources */,
 				1B5E8FE61D3039FD00054FD9 /* ViewController.swift in Sources */,
+				007909B91FFD20E6002C89AF /* Plane.swift in Sources */,
+				0042BBA51FF9FE81009F5E38 /* Car.swift in Sources */,
 				1B5E8FE41D3039FD00054FD9 /* AppDelegate.swift in Sources */,
+				006159061FFE14C10029605E /* Jet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
